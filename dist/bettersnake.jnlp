@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="bettersnake.jnlp">
+  <information>
+    <title>bettersnake</title>
+    <vendor>asus</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="bettersnake.jar" size="11297" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="bettersnake.Bettersnake"  name="bettersnake" />
+  <update check="always"/>
+</jnlp>
